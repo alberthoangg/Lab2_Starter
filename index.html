@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Meeting minutes for the six-seven meeting: agenda, notes, action items, and media."
+    />
+    <link rel="icon" href="data:," />
+    <title>six-seven meeting</title>
+  </head>
+  <body>
+    <header>
+      <h1>six-seven meeting</h1>
+      <p>
+        <strong>Meeting topic:</strong> Brainstorming &amp; planning<br />
+        <strong>Date:</strong> April 14, 2026
+      </p>
+
+      <nav aria-label="Meeting minutes navigation">
+        <h2>Contents</h2>
+        <ul>
+          <li><a href="#attendance">Attendance</a></li>
+          <li><a href="#agenda">Agenda</a></li>
+          <li><a href="#unfinished">Unfinished business</a></li>
+          <li><a href="#new">New business</a></li>
+          <li><a href="#misc">Miscellaneous</a></li>
+          <li><a href="#media">Diagrams &amp; recordings</a></li>
+          <li><a href="#form">Quick form</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="attendance" aria-labelledby="attendance-title">
+        <h2 id="attendance-title">Attendance</h2>
+        <p>
+          The following list captures who was present. Names are recorded as written during the
+          meeting.
+        </p>
+        <ul>
+          <li><b>Albert</b></li>
+          <li>Anchita</li>
+          <li>Amberly</li>
+          <li>Michael</li>
+          <li>Noah</li>
+          <li>Jerry</li>
+          <li>Ben</li>
+          <li>Jonathan</li>
+          <li>James</li>
+          <li>Ailyn</li>
+        </ul>
+
+        <div>
+          <p>
+        </div>
+      </section>
+
+      <hr />
+
+      <section id="agenda" aria-labelledby="agenda-title">
+        <h2 id="agenda-title">Agenda</h2>
+        <ol>
+          <li>Quick check-ins</li>
+          <li>Review diagram / task allocation</li>
+          <li>Decide next meeting time</li>
+        </ol>
+
+      </section>
+
+      <section id="unfinished" aria-labelledby="unfinished-title">
+        <h2 id="unfinished-title">Unfinished business</h2>
+        <ul>
+          <li>
+            Confirm team roles for the week (owner, reviewer, note-taker). We did not finalize this.
+          </li>
+          <li>
+            Identify a shared “definition of done” checklist; draft exists, needs group review.
+          </li>
+        </ul>
+
+        <details>
+          <summary>Open action items from last meeting</summary>
+          <ol>
+            <li>Set up a shared folder for assets and documents.</li>
+            <li>Decide a naming convention for files and meeting notes.</li>
+          </ol>
+        </details>
+      </section>
+
+      <section id="new" aria-labelledby="new-title">
+        <h2 id="new-title">New business</h2>
+        <p>
+          We brainstormed how to split tasks fairly and keep work visible. One suggestion was to
+          track tasks with a simple board and assign “small wins” early.
+        </p>
+        <details>
+          <summary>Decision log</summary>
+          <ul>
+            <li>Use a weekly sync cadence.</li>
+            <li>Keep tasks small enough to finish within 1–2 days.</li>
+            <li>Rotate the note-taker role each meeting.</li>
+          </ul>
+        </details>
+      </section>
+
+      <section id="misc" aria-labelledby="misc-title">
+        <h2 id="misc-title">Miscellaneous comments / questions / concerns</h2>
+        <p>
+          Someone asked if we should prioritize documentation early. The group agreed that
+          clear notes reduce rework, even if they feel “extra” at first.
+        </p>
+        <p>
+          Questions to follow up on:
+          <br />
+          - How will we handle missed meetings?
+          <br />
+          - Where should final deliverables live?
+        </p>
+      </section>
+
+      <section id="media" aria-labelledby="media-title">
+        <h2 id="media-title">Diagrams &amp; recordings</h2>
+
+        <section aria-labelledby="diagram-title">
+          <h3 id="diagram-title">Whiteboard diagram</h3>
+          <p>
+            Below is a photo of the whiteboard showing task allocation by range (as written during
+            discussion).
+          </p>
+          <img
+            src="whiteboard.jpeg"
+            alt="Whiteboard photo listing names and task number ranges."
+            width="640"
+          />
+        </section>
+
+        <section aria-labelledby="audio-title">
+          <h3 id="audio-title">Audio recording</h3>
+          <p>
+            This is a separate audio file as required. If it does not play in your browser, download
+            it and open it in a media player.
+          </p>
+          <audio controls>
+            <source
+              src="Zedd - Clarity x Stay The Night (DJ Love Mashup).mp3"
+              type="audio/mpeg"
+            />
+            Your browser does not support the audio element.
+          </audio>
+        </section>
+
+        <section aria-labelledby="video-title">
+          <h3 id="video-title">Video recording</h3>
+          <p>The meeting video is embedded below.</p>
+          <video controls width="640">
+            <source src="video.mp4" type="video/mp4" />
+            <source src="video.MOV" type="video/quicktime" />
+            Your browser does not support the video element.
+          </video>
+        </section>
+      </section>
+
+      <section id="form" aria-labelledby="form-title">
+        <h2 id="form-title">Quick form</h2>
+        <p>
+          This form is intentionally non-functional (no JavaScript). It exists to practice HTML form
+          elements.
+        </p>
+
+        <form action="#" method="get">
+          <fieldset>
+            <legend>Meeting follow-up</legend>
+
+            <p>
+              <label for="name">Name</label><br />
+              <input id="name" name="name" type="text" autocomplete="name" />
+            </p>
+
+            <p>
+              <label for="next-date">Preferred next meeting date</label><br />
+              <input id="next-date" name="next-date" type="date" />
+            </p>
+
+            <p>
+              Select your role preference:
+              <br />
+              <input id="role-dev" name="role" type="radio" value="developer" />
+              <label for="role-dev">Developer</label>
+              <br />
+              <input id="role-review" name="role" type="radio" value="reviewer" />
+              <label for="role-review">Reviewer</label>
+            </p>
+
+            <p>
+              Topics you want covered (choose any):
+              <br />
+              <input id="topic-docs" name="topics" type="checkbox" value="docs" />
+              <label for="topic-docs">Documentation</label>
+              <br />
+              <input id="topic-planning" name="topics" type="checkbox" value="planning" />
+              <label for="topic-planning">Planning</label>
+            </p>
+
+            <p>
+              <label for="tool">Preferred tracking tool</label><br />
+              <input id="tool" name="tool" list="tools" />
+              <datalist id="tools">
+                <option value="Trello"></option>
+                <option value="GitHub Projects"></option>
+                <option value="Notion"></option>
+                <option value="Google Sheets"></option>
+              </datalist>
+            </p>
+
+            <p>
+              <label for="meeting-type">Meeting format</label><br />
+              <select id="meeting-type" name="meeting-type">
+                <option value="">Choose one</option>
+                <option value="in-person">In-person</option>
+                <option value="remote">Remote</option>
+                <option value="hybrid">Hybrid</option>
+              </select>
+            </p>
+
+            <p>
+              <label for="notes">Anything else?</label><br />
+              <textarea id="notes" name="notes" rows="4" cols="40"></textarea>
+            </p>
+
+            <p>
+              <button type="submit">Submit</button>
+            </p>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>End of minutes.</p>
+    </footer>
+  </body>
+</html>
